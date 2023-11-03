@@ -1,0 +1,25 @@
+# Ignore build files and executables for C++ and Rust projects
+**/target/
+**/Cargo.lock
+**/build/
+**/*.o
+**/*.out
+**/*.exe
+**/*.a
+**/*.so
+**/.cache
+
+
+# Ignore temporary and backup files
+*~
+*.swp
+*.swo
+*.tmp
+*.bak
+*.log
+
+# Ignore operating system and IDE-specific files
+.DS_Store
+.vscode/
+*.code-workspace
+
